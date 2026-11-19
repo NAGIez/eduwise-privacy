@@ -40,7 +40,7 @@
     <h2>Передача данных</h2>
     <p>Без входа в личный кабинет расширение не обращается к внешним серверам. Аналитики и рекламы нет.</p>
     <p>Личный кабинет (по желанию). При входе через Google расширение получает адрес почты, имя и картинку учётной записи. После входа уроки, созданные в этом браузере (тексты шагов, описание элементов страницы, примеры значений полей, уменьшенные картинки шагов), сохраняются в базе данных сервиса Supabase (серверы в Европейском союзе) и доступны владельцу учётной записи, администратору сервиса и тем, кому владелец сам дал доступ: по адресу почты или по коду курса. Адреса почты получателей хранятся в базе вместе с курсом. Удалённый урок удаляется и из базы. После выхода из кабинета передача прекращается.</p>
-    <p>Исключение — видео по ссылке, которую автор урока сам добавил в шаг: при просмотре оно загружается с указанного автором адреса (например, YouTube), и на этот запрос действуют правила соответствующего сервиса.</p>
+    <p>Исключение — картинки, анимации (GIF) и видео по ссылке, которые автор урока сам добавил в шаг: при показе шага они загружаются с указанного автором адреса (например, YouTube или сайт с картинкой). Этот сервер получает обычный запрос браузера (в том числе адрес компьютера в сети) и действует по своим правилам. EduWise этим серверам ничего не передаёт.</p>
     <p>Уроки можно сохранить в файл и передать другому человеку — это делает сам пользователь, вручную.</p>
   </section>
 
@@ -82,7 +82,7 @@
     <h2>Data sharing</h2>
     <p>Without signing in to the personal account the extension does not contact external servers. There is no analytics or advertising.</p>
     <p>Personal account (optional). When you sign in with Google, the extension receives the email address, name and picture of the account. After sign-in, lessons created in this browser (step texts, descriptions of page elements, example field values, reduced step images) are stored in a database hosted by Supabase (servers in the European Union) and are available to the account owner, the service administrator and the people the owner has shared the course with: by email address or by course code. Recipients' email addresses are stored in the database together with the course. A deleted lesson is deleted from the database as well. After signing out, the transfer stops.</p>
-    <p>The only exception is a video link that the lesson author adds to a step: when viewed, the video is loaded from the address the author specified (for example, YouTube), and that request is subject to the policy of that service.</p>
+    <p>The only exception is images, animations (GIF) and videos linked by the lesson author in a step: when the step is shown, they are loaded from the address the author specified (for example, YouTube or a website hosting the image). That server receives an ordinary browser request (including the computer's network address) and follows its own policy. EduWise sends nothing to these servers.</p>
     <p>Lessons can be saved to a file and handed to another person — the user does this manually.</p>
   </section>
 
